@@ -1,0 +1,12 @@
+set data -      UPDATE employees
+                SET hourly_pay = 70.32
+                WHERE employee_id = 5;
+                SELECT * from employees;
+
+delete all -    DELETE FROM tablName;
+
+delete specific column- 
+
+                DELETE FROM tableName
+                WHERE FROM employee_id = 6;
+

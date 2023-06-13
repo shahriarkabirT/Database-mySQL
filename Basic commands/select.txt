@@ -1,0 +1,6 @@
+1. select all           - select * from tableName
+2.select specific column- select last_name, first_name
+                        -   select * 
+                            from employees
+                            where employee_id <= 2;
+3.
