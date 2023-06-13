@@ -1,0 +1,8 @@
+1.create table - "create table tableName;"
+2.rename table - "rename table   workers to employees;"
+3.change table - 
+                    alter table employees
+
+4.remane column -   alter table employees
+                    rename column phone_number to email;
+
