@@ -1,8 +1,36 @@
-1.create table - "create table tableName;"
+1.create table - "create table tableName(
+                    column1 dataType,
+                    column2 datatype(Maxsize),
+                    column3 datatype
+                    )"
 2.rename table - "rename table   workers to employees;"
+
 3.change table - 
                     alter table employees
 
 4.remane column -   alter table employees
                     rename column phone_number to email;
 
+5.modify column -   alter table employees
+                    modify column tableName(dataType(size));
+
+6.change position - alter table tableName
+                    modify tableName(which is gonna modifies) varchar(100)
+                    after tableName(where to put)
+
+7.Select table  -   select * from tableName
+
+8.remove table  -   drop table tableName
+
+9.Adding row -
+                insert into employees
+                values 	(2,"Shahriar","Kabir",50.38,"2021-09-12"),
+                		(3,"Jahangir","Alam",20.38,"2022-09-12"),
+                        (4,"Humaira","Kabir",30.38,"2010-09-12"),
+                        (5,"Shanto","khan",90.38,"2031-09-12");
+	
+10.Inserting row with null values
+
+                insert into employees(employee_id,first_name,last_name)
+                values 	(6,"Ekamot","Islam");
+                select * from employees
