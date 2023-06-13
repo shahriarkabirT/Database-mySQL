@@ -8,5 +8,4 @@ delete all -    DELETE FROM tablName;
 delete specific column- 
 
                 DELETE FROM tableName
-                WHERE FROM employee_id = 6;
-
+                WHERE employee_id = 6;
